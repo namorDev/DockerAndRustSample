@@ -1,5 +1,5 @@
 FROM rust
 
-COPY docker-program /bin/docker-program
+COPY HelloDocker /bin/HelloDocker
 
-CMD ["/bin/docker-program"]
+CMD ["/bin/HelloDocker"]

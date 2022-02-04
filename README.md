@@ -14,5 +14,11 @@ Simple Rust demo application which runs in a docker container
 
     You can also build it with cargo. See: https://doc.rust-lang.org/cargo/getting-started/first-steps.html
 
+2. Build with Docker
+    1. Dockerfile must be in the same directory as rust application binary
+    2. Build Docker image with `docker build -t my-docker-image-name .` (You need to be inside build directory)
+    3. Check if docker image is generated with `docker images`
+    4. Run image with `run my-docker-image-name`
+
 # Resources
 - https://blog.knoldus.com/containerize-rust-application-with-docker/
